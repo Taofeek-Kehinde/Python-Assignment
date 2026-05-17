@@ -70,7 +70,7 @@ while True:
             
             if transactions:
                 summary = get_transaction_summary(transactions)
-                print("\n=== Transaction Summary ===")
+                print("\n=== The transaction Summary ===")
                 for item in summary:
                     print(f"{item[0]}: {item[1]}")
             else:
